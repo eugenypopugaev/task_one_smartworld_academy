@@ -1,0 +1,29 @@
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -57px;
+  width: 114px;
+  height: 114px;
+  background: rgba(0, 99, 221, 0.23);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 66, 148, 0.08);
+  }
+
+  &__button {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $blue-primary;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

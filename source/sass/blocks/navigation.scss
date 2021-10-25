@@ -1,0 +1,19 @@
+.navigation {
+  &__button {
+    width: 165px;
+    height: 50px;
+    background: #0063DD;
+    border-radius: 25px;
+    margin-left: 52px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__logo {
+    &:hover {
+      box-shadow: 0 4px 16px rgba(0, 66, 148, 0.08);
+    }
+  }
+}

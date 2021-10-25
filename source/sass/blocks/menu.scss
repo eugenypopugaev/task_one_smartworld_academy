@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+
+  &__item {
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $text-default;
+
+  }
+
+  &__item:not(:last-child) {
+    margin: 0 42px 0 0;
+  }
+}
